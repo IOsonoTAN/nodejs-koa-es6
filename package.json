@@ -1,0 +1,24 @@
+{
+  "name": "traova",
+  "version": "0.0.1",
+  "description": "The platform to find the trips",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Krissada Boontrigratn (IOsonoTAN)",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "debug": "^2.2.0",
+    "dotenv": "^2.0.0",
+    "koa": "^1.2.0",
+    "koa-bodyparser": "^2.0.1",
+    "koa-router": "^5.4.0",
+    "mongoose": "^4.5.4",
+    "mongoose-paginate": "^5.0.0",
+    "node-uuid": "^1.4.7",
+    "redis": "^2.6.0-1",
+    "request-promise": "^3.0.0"
+  }
+}
